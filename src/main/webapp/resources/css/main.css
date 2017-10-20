@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+.jw_index_header {
+	display:inline-block; width:100%; border-bottom:1px solid #D5D5D5; height: 64px;
+}
+.jw_div_border {
+	border:1px solid #D5D5D5;
+}
+.jw_header_title {
+	font-weight:bold; font-size:16px;
+}
+.jw_stat_title {
+	display:inline-block; width:100%; margin-top:5px;
+}
+.jw_index_btngohome {
+	display: block;
+	cursor: pointer;
+  	font-size: 12px;
+  	font-weight: 700;
+  	color: #5D5D5D;
+  	margin-top: 28.5px;
+    margin-bottom: 12px;
+    margin-right: 12px;
+}
+.jw_index_spanbtn:hover {
+	border-bottom:2px solid #5D5D5D;
+}
+
+/* ---------------------- */
+.jw_navbar-ul {
+  	list-style: none;
+  	position: fixed;
+  	padding-top: 28.5px;
+    padding-bottom: 12px;
+}
+.jw_navbar-ul>li {
+	display: inline-block;
+	cursor: pointer;
+	margin-right:32px;
+	font-family: Circular,-apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+}
+.jw_navbar-ul>li>span {
+  	display: block;
+  	font-size: 15px;
+  	font-weight: 700;
+  	color: #008489;
+}
+.jw_navbar-ul>li>span:hover {
+	border-bottom:2px solid #008489;
+}
+.jw_main-nav-logobox { display: table-cell !important;vertical-align: middle !important;}
+.jw_main-nav-logobox2 { display: table-cell !important;
+	                height: 64px !important;
+	                position: relative !important;
+	                text-align: center !important;
+	                text-decoration: none !important;
+	                -webkit-transition: 0.25s color !important;
+	                -moz-transition: 0.25s color !important;
+	                transition: 0.25s color !important;
+	                padding-left: 24px !important;
+	                padding-right: 24px !important;
+	                vertical-align: middle !important;
+	                white-space: nowrap !important;
+}
+.jw_main-nav-logobox3 { color: #FF5A5F !important;
+	               display: inline-block !important;
+	               vertical-align: middle !important;
+	               font-size: 34px !important;
+	               -webkit-transition: 0.25s color !important;
+	               -moz-transition: 0.25s color !important;
+	               transition: 0.25s color !important;
+}
+.jw_main-nav-blank {display: table-cell !important; width: 100% !important; vertical-align: middle !important;}
+
+
+/* 도움말 CSS */
+.jw_help_frame {
+	width: 350px;
+    position: fixed;
+    z-index: 3001;
+    line-height: normal;
+    border-radius: 0 0 2px 2px;
+    background: #ffffff;
+}
+.jw_help_header {
+	width: 100%;
+	padding: 20px;
+    border-bottom: solid 1px #DBDBDB;
+    font-size: 19px;
+    text-align: center;
+    color: #484848;
+    font-weight: 300;
+    display: inline-block;
+}
+.jw_help_btnClose {
+	cursor: pointer;
+    background-color: transparent;
+    color: buttontext;
+    border: 0px;
+    margin-top: 4px
+}
+.jw_help_content {
+	width: 100%;
+    position: absolute;
+    padding: 0 20px !important;
+}
+.jw_help_search {
+	padding: 35px 0;
+	height: auto;
+}
+.jw_help_ul {
+	height: initial;
+	position: relative;
+    padding-bottom: 20px;
+    overflow-y: auto;
+}
+.jw_help_subTitle {
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 0.4px;
+	color: #767676;
+}
+.jw_help_li {
+	list-style-type: none;
+    padding: 16px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
